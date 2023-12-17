@@ -1,9 +1,10 @@
 body {
     background-color: gold;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: Apple Chancery, cursive;
+    font-style: oblique;
 }
 
-.center-text, .center, p {
+.center, .center-text, p {
     text-align: center;
 }
 
@@ -11,8 +12,9 @@ body {
     list-style-position: inside;
 }
 
-ul a {
+a {
     text-decoration: none;
+
 }
 a:hover {
     color: #5531f5;
