@@ -3,12 +3,8 @@ body {
     font-family: fantasy;
 }
 
-.center, .center-text, p {
+h1, div {
     text-align: center;
-}
-
-.center {
-    list-style-position: inside;
 }
 
 a {
@@ -29,3 +25,6 @@ img {
     margin-right: auto;
 }
 
+div {
+    margin: 30px;
+}
