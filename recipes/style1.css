@@ -4,7 +4,7 @@ body {
 }
 
 button:hover {
-    color: #5531f5;
+    color: white;
     }
 
 button:active {
@@ -19,6 +19,5 @@ button {
     size: 32px;
     font-family: fantasy;
     cursor: pointer;
-    color: white;
     }
     
