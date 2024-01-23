@@ -7,15 +7,11 @@ h1, button {
     text-align: center;
 }
 
-a {
-    text-decoration: none;
-
-}
-a:hover {
+button:hover {
     color: #5531f5;
 }
 
-a:active {
+button:active {
     color: red;
 }
 
@@ -30,4 +26,8 @@ button {
     border-radius: 5px;
     background-color: orange;
     display: block;
+    padding: 10px;
+    font-family: fantasy;
+    color: white;
+    cursor: pointer;
 }

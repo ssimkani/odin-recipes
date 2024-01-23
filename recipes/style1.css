@@ -3,15 +3,11 @@ body {
     font-family: fantasy;
 }
 
-a {
-    text-decoration: none;
-    }
-
-a:hover {
+button:hover {
     color: #5531f5;
     }
 
-a:active {
+button:active {
     color: red;
     }
 
@@ -21,5 +17,8 @@ button {
     background-color: orange;
     display: block;
     size: 32px;
+    font-family: fantasy;
+    cursor: pointer;
+    color: white;
     }
     
