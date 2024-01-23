@@ -3,7 +3,7 @@ body {
     font-family: fantasy;
 }
 
-h1, div {
+h1, button {
     text-align: center;
 }
 
@@ -25,6 +25,9 @@ img {
     margin-right: auto;
 }
 
-div {
-    margin: 30px;
+button {
+    margin: 50px auto;
+    border-radius: 5px;
+    background-color: orange;
+    display: block;
 }
