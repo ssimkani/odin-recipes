@@ -5,15 +5,23 @@ body {
 
 button:hover {
     color: white;
-    }
+}
 
-button:active {
+a:hover {
+    color: gray;
+}
+
+a:visited {
+    color: purple;
+}
+
+button:active, a:active {
     color: red;
     }
 
 button {
     margin: 10px;
-    border-radius: 5px;
+    border-radius: 10px;
     background-color: orange;
     display: block;
     size: 32px;

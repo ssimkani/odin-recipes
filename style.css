@@ -3,7 +3,8 @@ body {
     font-family: fantasy;
 }
 
-h1, button {
+h1 {
+    font-size: 45px;
     text-align: center;
 }
 
@@ -19,8 +20,7 @@ button:active {
     text-align: center;
 }
 
-
-.chef, .turkey {
+img {
     display: inline-block;
     margin: auto;
 }
@@ -29,12 +29,18 @@ button:active {
     margin: auto 70px;
 }
 
+.button-container {
+    display: flex;
+    justify-content: center;
+}
+
 button {
-    margin: 50px auto;
-    border-radius: 5px;
+    text-align: center;
+    margin: 100px 150px;
+    padding: 50px;
+    border-radius: 10px;
     background-color: orange;
-    display: block;
-    padding: 10px;
     font-family: fantasy;
     cursor: pointer;
+    font-size: 20px;
 }
